@@ -1,5 +1,27 @@
-div{
+body{
+    margin: 0px;
+}
+.main{
     background-color: #E4F9F5;
-    padding: 5px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: #ff0000;
+    /* padding: 10px; */
+    margin: 15px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: #005eff;
+    /* padding: 10px; */
+    margin: 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+
 }
