@@ -32,7 +32,7 @@ h2{
     bottom: 400px;
 }
 .middle-container{
-
+    
 }
 .skill-head{
     color: #11999E;
@@ -60,17 +60,50 @@ h2{
     float: right;
     margin-left: 25px;
 }
+hr {
+    border: dotted #c5f4eb 6px;
+    width:5%;
+    border-bottom: none;
+}
+.bottom-container{
+    background-color: #b2f9f9;
+    height: 200px;;
+    margin-top: 15px;
+    padding-top: 35px;
+}
+.lmao{
+    color: #11999E;
+    color: #007171;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.footer-link{
+    margin-right: 25px;
+    color: #007171;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.footer{
+    font-size: small;
+    padding-top: 50px;
+}
+.btn{
+    text-decoration: none;
+    color: #007171;
 
+}
 /*
+changes to be made: 
+
+button
 Change the text to "Contact Me"
-
 Change the border-radius to 8
-
 Start gradient colour: #11cdd4
-
 End gradient colour: #11999e
-
 Hover start colour: #30e3cb
-
 Hover end colour: #2bc4ad
 */
