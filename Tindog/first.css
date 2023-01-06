@@ -15,6 +15,10 @@ h1{
     font-weight: 1000;
     line-height: 1.5;
 }
+h2{
+    font-size: 2.75rem;
+    font-weight: bolder;
+}
 h3{
     font-family: 'Montserrat';
     font-weight: bold;
@@ -70,4 +74,52 @@ p{
 }
 .icon:hover{
     color: #ff4c68;
+}
+
+/* -------------------------testimonials--------------- */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align : center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius:100% ;
+    margin: 20px;
+}
+
+/* ----------------press--------------- */
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press{
+    width: 15%;
+    margin-right: 45px;
+}
+ 
+.card{
+    height: 100%;
+    /* margin: 0px 20px 0px 20px; */
+}
+.card-footer{
+    vertical-align: bottom;
+    text-align: center;
+}
+
+/* ------------price----- */
+.pricing-col{
+    padding: 3% 2%;
+}
+.head{
+    padding:1.5%;
+    text-align: center;
+    font-size: 3.25rem;
+}
+.head-2{
+    text-align: center;
+    font-size: 1.25rem;
 }
