@@ -22,7 +22,7 @@ h2{
 h3{
     font-family: 'Montserrat';
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     /* padding-right: auto; */
 }
 p{
@@ -52,16 +52,22 @@ p{
     margin: 5% 3% 5% 0%;
 }
 /* ------------------------------------------- */
-
+.custom_div{
+    position: relative;
+}
 .title-img{
-    width: 60%;
+    width: 50%;
     transform: rotate(30deg);
     margin-left: 100px;
+    position: absolute;
+    right: 25%;
 }
-
 /* features */
 #features{
     padding: 5% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 .feature-box{
     text-align: center;
@@ -111,6 +117,7 @@ p{
 }
 
 /* ------------price----- */
+
 .pricing-col{
     padding: 3% 2%;
 }
@@ -122,4 +129,37 @@ p{
 .head-2{
     text-align: center;
     font-size: 1.25rem;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    height: 500px;
+    padding-top: 10%;
+}
+.cta-h1{
+    color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+#footer{
+    margin: 100px 0px 100px 0px;
+    text-align: center;
+    font-size: large;
+}
+.ic{
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    padding-right: 25px;
+    text-align: center;
+}
+
+@media (max-width: 1028px){  /* only works if max width is 1028px*/
+    #title{
+        text-align: center;
+    }
+    
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
 }
