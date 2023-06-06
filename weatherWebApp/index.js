@@ -11,7 +11,6 @@ app.get("/",function (req,res) {
     res.sendFile(__dirname+"/index.html")
 
 })
-
 app.post("/",function(req,res){
     const appid = "9eee839f77c248208f614493f02b14a8";
     const units = "metric"
@@ -26,8 +25,6 @@ app.post("/",function(req,res){
         })
     })
 })
-
-
 
 app.listen(3000, function(){
     console.log("Server has started");
